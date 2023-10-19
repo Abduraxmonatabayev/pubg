@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(295deg, #4C0070 0%, #5E2BE2 127.15%);
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+
+img {
+    display: inline-block;
+}
+
+button {
+    cursor: pointer;
+}
+
+.container {
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.hero_div {
+    display: flex;
+    align-items: center;
+    gap: 900px;
+
+
+}
+
+.hero_img {
+    margin-top: 35px;
+    margin-left: 120px;
+}
+
+
+.hero_btn {
+    margin-top: 35px;
+    width: 74px;
+    height: 26px;
+    flex-shrink: 0;
+    background-color: transparent;
+    color: white;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    width: 150px;
+    height: 46px;
+    flex-shrink: 0;
+    border-radius: 35px;
+    border: 2px solid #FFF;
+}
+
+.hero_h1 {
+    margin: 0 auto;
+    margin-top: 130px;
+    width: 742px;
+    height: 84px;
+    flex-shrink: 0;
+    color: #FADD08;
+    font-family: Montserrat;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.hero_p {
+    margin: 0 auto;
+    /* margin-left: 380px; */
+    width: 596px;
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.hero_div-2 {
+    margin-left: 350px;
+}
+.text {
+    width: 551px;
+    height: 416px;
+    background-image: url("../assets/img/car-2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 550px;
+    right: -650px;
+
+}
+
+.text-2 {
+    width: 551px;
+    height: 416px;
+    background-image: url("../assets/img/car-1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 550px;
+    left: -250px;
+}
+ .hero_text_2 {
+    position: relative;
+} 
+
